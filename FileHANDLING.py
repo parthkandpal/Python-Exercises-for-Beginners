@@ -1,0 +1,8 @@
+file_object=open("F:\\file.txt",'w+')
+print('File content before writing:')
+print(file_object.read())
+file_object.write("\nPython is awesome")
+print("File content after writing")
+file_object.seek(0)
+print(file_object.read())
+file_object.close()
